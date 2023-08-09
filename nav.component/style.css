@@ -1,0 +1,182 @@
+*, *::before, *::after{
+      box-sizing: border-box;
+      
+}
+
+.body{
+      margin: 0;
+      width: 100%;
+       font-family: 'Roboto', sans-serif;
+      font-size: 1.3rem;
+}     
+
+header{
+      background-color: brown;
+      padding: .5em 0;
+}
+
+.navhead{
+      display: flex;
+      justify-content: space-between;
+}
+.order-list{
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      color: white;
+      align-items: center;
+      display: flex;
+      flex-grow: 1;
+      list-style: none;
+      margin-left: 1em;
+      font-weight: bold;
+      font-size: .9em;
+      font-family: 'Times New Roman', Times, serif;
+      
+}
+
+.order-list:hover
+.order-list:focus{
+      opacity: .70;
+}
+
+
+.list-item + .list-item{
+      list-style: none;
+      margin-left: 1em;
+}
+
+
+.list-item-btn{
+      color: brown;
+      background-color: white;
+      border: none;
+      border-radius:10em 10em ;
+      padding: .3em .9em;
+
+
+}
+
+
+
+
+.main{
+            padding: 100px 0;  
+            background-color: #f6bff8;
+            color: white;
+      }
+           
+
+h1{
+
+      font-family: 'Roboto', sans-serif;
+      font-size: 3rem;
+      font-weight: bold;
+      color: black;
+      
+
+
+}
+.main P{
+      color: rgb(59, 44, 44);
+      margin-bottom: 3em;
+      font-family: 'Roboto', sans-serif;
+      font-size: 21px;
+      
+      
+      
+
+}
+
+
+
+
+.top-col{
+      background-color: black;
+      padding: 3em 0;
+}
+      
+.down-col{
+      background-color: #f75599;
+      padding: 3em 0;
+}
+.container{
+      width: 80%;
+      max-width: 11000px;
+      margin:0 auto;      
+      
+}   
+
+.main.text{
+      width: 60%;
+      
+}
+
+.row{
+    display: flex;
+    flex-direction: row; 
+
+    
+}
+
+.col{
+     text-align: center; 
+      width: 100%;
+      
+
+}
+h2{
+      color: rgb(28, 80, 7) ;
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+
+}
+p{
+      color: #d1baba;
+}
+
+
+.col + .col{
+      margin-left: 30px;
+}
+
+.down{
+      display: flex;
+      font-family: 'Roboto', sans-serif;
+      
+      color: black;
+      /* font-size: 36px; */
+
+
+}
+.down p{
+    color: black;
+}
+.down h2{
+      color: black;
+}
+ 
+
+
+
+
+
+
+.btn{
+      display: inline-block;
+      background-color: rgba(233, 86, 28, 0.938);
+      color: rgb(244, 249, 250);
+      text-transform: uppercase;
+      border: 1em;
+      padding:.75em 2em ;
+      border-radius: 100px;
+      text-decoration: none;
+      font-weight: 700;    
+      font-size: 1.25em;
+      font-family: 'Roboto', sans-serif;
+
+}
+.btn:hover,
+.btn:focus{
+      opacity: .60;
+}
